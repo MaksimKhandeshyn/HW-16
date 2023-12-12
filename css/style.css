@@ -1,4 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .bg-box {
-    /* background: url('../images/hedgehog.png');  */
-    background-image: url('../images/pole.jpg');
+    content: "";
+    width: 940px;
+    height: 530px;
+    background-color: green;
+    background-image: url('../images/pole.jpg'), url('../images/small-lamp.jpg'), url('../images/small-grass.jpg'), url('../images/donut.jpg'), url('https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/Ёжик.png/revision/latest?cb=20180209130328&path-prefix=ru');
+    background-position: center, top, bottom, right, left;
+    background-repeat: no-repeat, repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 223px, 32px, 216px, 23px, 20px;
 }
