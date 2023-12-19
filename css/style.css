@@ -4,7 +4,6 @@ body {
 }
 
 .bg-box {
-    content: "";
     width: 940px;
     height: 530px;
     background-color: green;
